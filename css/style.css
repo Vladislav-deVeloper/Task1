@@ -1,0 +1,151 @@
+body{
+    background-color:#f5fcfd;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    color: #929292
+}
+.Logo{
+    display:flex;
+    align-items: center;
+   
+
+}
+.Logo h2{
+    font-size: 36px;
+    color: #feffff;
+    font-weight: bold;
+    background-color: #0f7bff;
+    border-radius: 0px 0px 21.5px 21.5px;
+    width: 180px;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar-nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-self: center;
+    
+}
+.nav-item{
+    
+}
+.header__background{
+    background: url(../img/Shape1.png);
+    
+    background-position: 0 100%;
+    background-size:cover;
+}
+a{
+
+    color: #0f7bff;
+}
+a:hover{
+    color: #0f20ff;
+}
+.p{
+    text-align: center;
+}
+header .navbar-brand{
+    font-size: 36px;
+    color: #feffff;
+    font-weight: bold;
+    background-color: #0f7bff;
+    border-radius: 0px 0px 21.5px 21.5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    left: 140px;
+    z-index: 4;
+}
+header .nav-item{
+    text-transform: uppercase;
+    margin-left: 50px;
+    z-index: 5;
+
+}
+.btn{
+    border-radius: 25px;
+    background-color: #0063dd;
+    width: 165px;
+    height: 50px;
+    margin-left: 50px;
+    z-index: 6;
+}
+.btn1{
+    background-color: #0f7bff;
+    font-weight: bold;
+    z-index: 7;
+}
+.empty-btn{
+    background-color: #f5fcfd;
+    border-color: #0f7bff;
+    color: #0f7bff;
+    font-weight: bold;
+    z-index: 8;
+}
+.post-title{
+    font-weight: bold;
+    font-size: 36px;
+    color: #333333;
+    padding-top: 100px;
+    z-index: 9;
+}
+.container{
+    top: 0px;
+    text-align: center;
+    z-index: 3;
+}
+.post{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    z-index: 11;
+}
+.shape1{
+    top: 100 px;
+    z-index: -3;
+    position: absolute;
+    width: 1912;
+    left: -1000;
+}
+.img{
+    z-index: -2;
+    position: absolute;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 512px;
+    width: 1912px;
+    align-content: center;
+}
+.block{
+    background-color: #ffffff;
+    width: 360px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+.icon{
+    z-index: 1;
+    position: relative;
+}
+.foricon{
+    z-index: 0;
+    position: relative;
+    left: -60px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
